@@ -9,6 +9,9 @@ body{
 h1{
     text-align: center;
 }
+p{
+    text-align: center;
+}
 #buttons{
     display: flex;
     justify-content: center;
@@ -21,8 +24,15 @@ h1{
     height: 100px;
     border: 2px solid;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
     text-align: center;
+}
+.box-text{
+    margin: 10px;
+}
+.sound-key{
+    font-weight: bold;
 }
