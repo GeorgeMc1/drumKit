@@ -29,7 +29,16 @@ p{
     align-items: center;
     margin: 10px;
     text-align: center;
+    /* transition: ease-in-out 200ms ; */
 }
+
+.flash {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    transition: ease-in-out 200ms ;
+}
+
+
 .box-text{
     margin: 5px;
 }
